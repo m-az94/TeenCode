@@ -1,0 +1,18 @@
+body{
+    background-color: #ffffff;
+}
+img{
+    width: 19vw;
+}
+.col-md-9 {
+    margin: auto;
+}
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: slategrey;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    padding: 10px;
+    color: #fff;
+}
