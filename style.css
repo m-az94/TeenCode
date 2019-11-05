@@ -1,18 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono|Special+Elite&display=swap');
 body{
     background-color: #ffffff;
+    font-family: 'PT Mono', monospace;
+    color: #3B4045;
+}
+a{
+    text-decoration: none;
+    color: dimgray;
 }
 img{
     width: 19vw;
 }
-.col-md-9 {
+.display-3, .faq-title{
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
+.faq{
+    text-align: center;
+}
+.col-md-9, .col-md-7, .col-md-3, .col-md-5{
     margin: auto;
+}
+.navbar{
+    background-color: #F0DEFD;
+}
+.jumbotron {
+    background-color: #FCF7DE;
+    padding: 10px;
+}
+.icon{
+    font-family: 'PT Mono', monospace;
+    font-size: 15px;
+}
+.col-md-9{
+    border-radius: 50%;
+    /* background-color: #F0DEFD; */
+}
+#why{
+    background-color: #DEFDE0;
+}
+#how{
+    background-color: #FDDFDF;
+}
+#who{
+    background-color: #DEF3FD;
+}
+#about{
+    background-color: #FCF7DE;
 }
 /* Footer */
 .footer {
     text-align: center;
-    background-color: slategrey;
+    background-color: #F0DEFD;
     margin-bottom: 0px;
     margin-top: 5px;
     padding: 10px;
-    color: #fff;
+    color: grey;
 }
